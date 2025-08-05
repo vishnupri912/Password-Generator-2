@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoCE5WldendYOzkUa-85zZFAhTTW72NMcWg&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(to right,rgb(231, 130, 146),lightblue);*/
+    align-items: center;
+}
+.con{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(68, 67, 67),-5px -5px 10px white;
+    border: none;
+    width: 40%;
+    padding: 20px;
+    
+}
+.con h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    margin-block: 20px;
+}
+.boom{
+    margin-left: 22px;
+    position: relative;
+}
+.boom input{
+    height: 50px;
+    width: 95%;
+    outline: none;
+font-size: 25px;
+border: none;
+padding: 10px;
+border-radius: 8px;
+background-color: #fff;
+}
+.bool{
+    position: relative;
+    
+}
+.bool p{
+    margin-left: 22px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.bool span{
+    position: absolute;
+    top:5%;
+    right: 30px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.book label{
+    font-size: 18px;
+    margin-left: 22px;
+     color: #fff;
+    font-weight: 600;
+}
+.book input{
+   margin-left: 130px;
+   height: 20px;
+   width: 20px;
+}
+.b1 input{
+    margin-left: 212px;
+}
+
+.ok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ok button{
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: blue;
+    margin-block: 20px;
+    font-size: 20px;
+   border-radius: 10px;
+   transition: 3s;
+}
+.ok button:hover{
+    background-color: blueviolet;
+}
+
+.boom i{
+    position: absolute;
+    top:15%;
+    right: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 3;
+}
